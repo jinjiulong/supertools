@@ -15,7 +15,11 @@ namespace SuperTools.Api
             //注入用户模块服务
             services.AddScoped<UserService, UserService>();
             //注入登录模块服务
-            services.AddScoped<LoginService, LoginService>();            
+            services.AddScoped<LoginService, LoginService>();
+            //注入项目模块服务
+            services.AddScoped<ProjectService, ProjectService>();
+            //注入客户模块服务
+            services.AddScoped<CustomerService, CustomerService>();
             return services;
         }
 

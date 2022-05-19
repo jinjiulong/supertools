@@ -114,5 +114,27 @@ namespace SuperTools.Form
             var page = (XtraTabPage)((DevExpress.XtraTab.ViewInfo.PageEventArgs)e).Page;
             xtraTabControl.TabPages.Remove(page);
         }
+
+        public void OpenPage(string pageId, TabForm tabForm)
+        {
+
+            foreach (XtraTabPage page in xtraTabControl.TabPages)
+            {
+                if (page.Name == pageId)
+                {
+                    xtraTabControl.SelectedTabPage = page;//显示该页
+                    return;
+                }
+            }
+            var tabPage = new XtraTabPage
+            {
+                Text = tabForm.Text,
+                Name = pageId
+            };
+            xtraTabControl.TabPages.Add(tabPage);
+            tabForm.Parent = tabPage;
+            tabForm.Show();
+            xtraTabControl.SelectedTabPage = tabPage;
+        }
     }
 }

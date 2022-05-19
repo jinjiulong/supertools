@@ -118,35 +118,35 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.barDockControlTop.Size = new System.Drawing.Size(1152, 73);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.barDockControlTop.Size = new System.Drawing.Size(2766, 100);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 773);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1710);
             this.barDockControlBottom.Manager = this.barManager;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1152, 0);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.barDockControlBottom.Size = new System.Drawing.Size(2766, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 73);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 100);
             this.barDockControlLeft.Manager = this.barManager;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 700);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1610);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1152, 73);
+            this.barDockControlRight.Location = new System.Drawing.Point(2766, 100);
             this.barDockControlRight.Manager = this.barManager;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 700);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 1610);
             // 
             // treeList
             // 
@@ -155,52 +155,56 @@
             this.treeListColumn2,
             this.treeListColumn3});
             this.treeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeList.FixedLineWidth = 3;
+            this.treeList.HorzScrollStep = 4;
             this.treeList.KeyFieldName = "Id";
-            this.treeList.Location = new System.Drawing.Point(0, 73);
-            this.treeList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.treeList.Location = new System.Drawing.Point(0, 100);
+            this.treeList.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.treeList.MenuManager = this.barManager;
-            this.treeList.MinWidth = 23;
+            this.treeList.MinWidth = 34;
             this.treeList.Name = "treeList";
             this.treeList.OptionsBehavior.Editable = false;
             this.treeList.OptionsBehavior.ReadOnly = true;
             this.treeList.ParentFieldName = "ParentId";
-            this.treeList.Size = new System.Drawing.Size(1152, 700);
+            this.treeList.Size = new System.Drawing.Size(2766, 1610);
             this.treeList.TabIndex = 4;
-            this.treeList.TreeLevelWidth = 21;
+            this.treeList.TreeLevelWidth = 31;
             // 
             // treeListColumn1
             // 
             this.treeListColumn1.Caption = "菜单名称";
             this.treeListColumn1.FieldName = "Name";
-            this.treeListColumn1.MinWidth = 19;
+            this.treeListColumn1.MinWidth = 28;
             this.treeListColumn1.Name = "treeListColumn1";
             this.treeListColumn1.Visible = true;
             this.treeListColumn1.VisibleIndex = 0;
+            this.treeListColumn1.Width = 112;
             // 
             // treeListColumn2
             // 
             this.treeListColumn2.Caption = "菜单编号";
             this.treeListColumn2.FieldName = "Code";
-            this.treeListColumn2.MinWidth = 19;
+            this.treeListColumn2.MinWidth = 28;
             this.treeListColumn2.Name = "treeListColumn2";
             this.treeListColumn2.Visible = true;
             this.treeListColumn2.VisibleIndex = 1;
+            this.treeListColumn2.Width = 112;
             // 
             // treeListColumn3
             // 
             this.treeListColumn3.Caption = "程序集信息";
             this.treeListColumn3.FieldName = "Des";
-            this.treeListColumn3.MinWidth = 23;
+            this.treeListColumn3.MinWidth = 34;
             this.treeListColumn3.Name = "treeListColumn3";
             this.treeListColumn3.Visible = true;
             this.treeListColumn3.VisibleIndex = 2;
-            this.treeListColumn3.Width = 86;
+            this.treeListColumn3.Width = 129;
             // 
             // MenuList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1152, 773);
+            this.ClientSize = new System.Drawing.Size(2766, 1710);
             this.Controls.Add(this.treeList);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -209,7 +213,7 @@
             this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("MenuList.IconOptions.Icon")));
             this.LookAndFeel.SkinName = "Metropolis";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
+            this.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.Name = "MenuList";
             this.Text = "菜单";
             this.Load += new System.EventHandler(this.MenuList_Load);
