@@ -9,17 +9,13 @@ namespace SuperTools.Data
     /// </summary>
     public class ToolsDbContext : DbContext
     {
-        /// <summary>
-        /// 菜单
-        /// </summary>
         public DbSet<Menu> Menus { get; set; }
         public DbSet<MenuVO> MenuVOs { get; set; }
         public DbSet<Project> Projects { get; set; }
-
-        /// <summary>
-        /// 用户
-        /// </summary>
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<User> Users { get; set; }
+
+
 
         /// <summary>
         /// 有参构造函数

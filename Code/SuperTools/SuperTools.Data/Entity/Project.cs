@@ -53,5 +53,8 @@ namespace SuperTools.Data.Entity
 
         [Column("appadminpassword")]
         public string AppAdminPassword { get; set; } = string.Empty;
+
+        [Column("customerid")]
+        public long CustomerId { get; set; }
     }
 }
