@@ -117,6 +117,12 @@
     <Compile Include="SmallTools\ToolsList.Designer.cs">
       <DependentUpon>ToolsList.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemSetting\CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemSetting\CustomerList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SmallTools\ToolsList.resx">
       <DependentUpon>ToolsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemSetting\CustomerList.resx">
       <DependentUpon>CustomerList.cs</DependentUpon>
