@@ -116,58 +116,50 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.barDockControlTop.Size = new System.Drawing.Size(2766, 100);
+            this.barDockControlTop.Size = new System.Drawing.Size(1839, 73);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1760);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 773);
             this.barDockControlBottom.Manager = this.barManager;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.barDockControlBottom.Size = new System.Drawing.Size(2766, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1839, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 100);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 73);
             this.barDockControlLeft.Manager = this.barManager;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1660);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 700);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(2766, 100);
+            this.barDockControlRight.Location = new System.Drawing.Point(1839, 73);
             this.barDockControlRight.Manager = this.barManager;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 1660);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 700);
             // 
             // gridControl
             // 
             this.gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.gridControl.Location = new System.Drawing.Point(0, 100);
+            this.gridControl.Location = new System.Drawing.Point(0, 73);
             this.gridControl.MainView = this.cardView1;
-            this.gridControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl.MenuManager = this.barManager;
             this.gridControl.Name = "gridControl";
-            this.gridControl.Size = new System.Drawing.Size(2766, 1660);
+            this.gridControl.Size = new System.Drawing.Size(1839, 700);
             this.gridControl.TabIndex = 4;
             this.gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.cardView1});
             // 
             // cardView1
             // 
-            this.cardView1.CardWidth = 300;
             this.cardView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.layoutViewColumn1,
             this.layoutViewColumn2,
             this.layoutViewColumn3});
-            this.cardView1.DetailHeight = 486;
             this.cardView1.GridControl = this.gridControl;
             this.cardView1.Name = "cardView1";
             this.cardView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
@@ -176,35 +168,35 @@
             // layoutViewColumn1
             // 
             this.layoutViewColumn1.Caption = "layoutViewColumn1";
-            this.layoutViewColumn1.MinWidth = 37;
+            this.layoutViewColumn1.MinWidth = 25;
             this.layoutViewColumn1.Name = "layoutViewColumn1";
             this.layoutViewColumn1.Visible = true;
             this.layoutViewColumn1.VisibleIndex = 0;
-            this.layoutViewColumn1.Width = 141;
+            this.layoutViewColumn1.Width = 94;
             // 
             // layoutViewColumn2
             // 
             this.layoutViewColumn2.Caption = "layoutViewColumn2";
-            this.layoutViewColumn2.MinWidth = 37;
+            this.layoutViewColumn2.MinWidth = 25;
             this.layoutViewColumn2.Name = "layoutViewColumn2";
             this.layoutViewColumn2.Visible = true;
             this.layoutViewColumn2.VisibleIndex = 1;
-            this.layoutViewColumn2.Width = 141;
+            this.layoutViewColumn2.Width = 94;
             // 
             // layoutViewColumn3
             // 
             this.layoutViewColumn3.Caption = "layoutViewColumn3";
-            this.layoutViewColumn3.MinWidth = 37;
+            this.layoutViewColumn3.MinWidth = 25;
             this.layoutViewColumn3.Name = "layoutViewColumn3";
             this.layoutViewColumn3.Visible = true;
             this.layoutViewColumn3.VisibleIndex = 2;
-            this.layoutViewColumn3.Width = 141;
+            this.layoutViewColumn3.Width = 94;
             // 
             // ProjectList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2766, 1760);
+            this.ClientSize = new System.Drawing.Size(1839, 773);
             this.Controls.Add(this.gridControl);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -213,7 +205,7 @@
             this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("ProjectList.IconOptions.Icon")));
             this.LookAndFeel.SkinName = "Metropolis";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.Margin = new System.Windows.Forms.Padding(14, 12, 14, 12);
+            this.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.Name = "ProjectList";
             this.Text = "ProjectList";
             ((System.ComponentModel.ISupportInitialize)(this.barManager)).EndInit();
